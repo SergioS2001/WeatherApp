@@ -1,0 +1,43 @@
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(54, 54, 54);
+
+}
+
+.card{
+   /* box-shadow: 0 4px 39px 0 rgba(0,0,0,0.2);*/
+   position: relative;
+    width: 400px;
+    height: 100px;
+    background-color: lightcyan;
+    padding: 28px 32x;
+    overflow: hidden;
+    margin: 100px auto 0;
+    border-radius: 20px;
+    text-align: center;
+    transition: 0.6s ease-in-out;
+    font-family: 'Roboto', sans-serif;
+}
+
+.search{
+    width: 100%;
+    height: min-content;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.search input{
+    color: rgb(1, 1, 50);
+    width: 80%;
+    font-size: 24px;
+    font-weight: 500;
+    padding-left: 32px;
+}
+
+.search input::placeholder{
+
+}
