@@ -1,3 +1,13 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: none;
+    box-sizing: border-box;
+}
+
+
+
 body{
     height: 100vh;
     display: flex;
@@ -15,7 +25,7 @@ body{
     background-color: lightcyan;
     padding: 28px 32x;
     overflow: hidden;
-    margin: 100px auto 0;
+   /* margin: 100px auto 0;*/
     border-radius: 20px;
     text-align: center;
     transition: 0.6s ease-in-out;
@@ -36,8 +46,13 @@ body{
     font-size: 24px;
     font-weight: 500;
     padding-left: 32px;
+    align-content: center;
 }
 
 .search input::placeholder{
-
+    font-size: 20px;
+    font-weight: 500;
+    color: black;
+    text-transform: capitalize;
 }
+
